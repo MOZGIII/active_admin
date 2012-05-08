@@ -43,6 +43,19 @@ ru:
     blank_slate:
       content: "Пока нет %{resource_name}."
       link: "Создать"
+    batch_actions:
+      button_label: "Пакетные действия"
+      delete_confirmation: "Вы уверены что хотите удалить эти записи? Вы не сможете отменить это действие."
+      succesfully_destroyed:
+        one: "Успешно удалена 1 запись %{model}"
+        few: "Успшно удалено %{count} записи %{plural_model}"
+        many: "Успшно удалено %{count} записей %{plural_model}"
+        other: "Успшно удалено %{count} записи %{plural_model}"
+      selection_toggle_explanation: "(Переключить выбор)"
+      link: "Создать"
+      action_label: "%{title}"
+      labels:
+        destroy: "Удалить"
     comments:    
       body: "Текст"
       author: "Автор"

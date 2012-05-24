@@ -41,16 +41,16 @@ ru:
         other: "записей"
     any: "Любой"
     blank_slate:
-      content: "Пока нет %{resource_name}."
+      content: "%{resource_name} отсутствуют."
       link: "Создать"
     batch_actions:
       button_label: "Пакетные действия"
       delete_confirmation: "Вы уверены что хотите удалить эти записи? Вы не сможете отменить это действие."
       succesfully_destroyed:
-        one: "Успешно удалена 1 запись %{model}"
-        few: "Успшно удалено %{count} записи %{plural_model}"
-        many: "Успшно удалено %{count} записей %{plural_model}"
-        other: "Успшно удалено %{count} записи %{plural_model}"
+        one: "Успешно удалена 1 запись"
+        few: "Успешно удалено %{count} записи"
+        many: "Успешно удалено %{count} записей"
+        other: "Успешно удалено %{count} записи"
       selection_toggle_explanation: "(Переключить выбор)"
       link: "Создать"
       action_label: "%{title}"
@@ -66,3 +66,17 @@ ru:
       title_content: "Комментарии (%{count})"
       errors:
         empty_text: "Комментарий не сохранен, текст не должен быть пустым."
+    devise:
+      login:
+        title: "Вход"
+        remember_me: "Запомнить меня"
+        submit: "Войти"
+      reset_password:
+        title: "Забыли пароль?"
+        submit: "Сбросить пароль"
+      change_password:
+        title: "Смена пароля"
+        submit: "Сменить пароль"
+      links:
+        sign_in: "Войти"
+        forgot_your_password: "Забыли пароль?"
